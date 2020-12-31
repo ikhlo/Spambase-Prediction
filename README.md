@@ -26,6 +26,10 @@ The next steps of the process are done on a Jupyter notebook that you can see in
 <br/>
 After the creation and selection of our final model, we decide to implement it into an API. How it works? You just have to write or paste a mail in the dedicated field, and then the API shows you the given prediction made by our model.
 
+## Conclusion
+<br/>
+As you can see, on our API you can test some mails that the model fails to predict the right label. The reason is that this model has been built based on data dating from 1999 or earlier. Since then, emails' structure has changed a lot and the same for spam which are now more developed (with less text and more attractive image for example).
+However, there is some patterns remaining in current spam and allowing our model to be efficient.
 
 ## Launch the Flask Application with Docker
 <br/>
